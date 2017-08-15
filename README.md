@@ -16,7 +16,7 @@ You should follow several simple steps to intall this plugin:
 If your website doesn't contain RD Campaign Monitor follow the instructions below to install it.
 
 ### Include RD Campaign Monitor files to Website
-Copy the "assets/rd-campaign-monitor.css" to website's CSS folders respectively and include this files to your website.
+Copy the "assets/campaign-monitor.css" and "assets/campaign-monitor.js" to website's CSS and JS folders respectively and include this files to your website.
 
 ### Add RD Campaign Monitor HTML Layout
 Add basic HTML markup:
@@ -32,7 +32,7 @@ Add basic HTML markup:
 <div class="snackbars" id="form-output-global"></div>
 ```
 
-Example of RD Campaign Monitor markup using [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/):
+Example of RD Campaign Monitor markup using [Bootstrap](http://getbootstrap.com/):
 
 ```html
 <!-- RD Campaign Monitor -->

@@ -7,7 +7,7 @@ const Plugin = {
     name: "novi-plugin-campaign-monitor",
     title: "Novi Campaign Monitor",
     description: "Novi Campaign Monitor description",
-    version: "1.0.3",
+    version: "1.0.4",
     dependencies: {
     },
     defaults: {

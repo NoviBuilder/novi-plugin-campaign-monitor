@@ -6,7 +6,7 @@ import Body from "./editor/Body";
 
 const EditorItem = {
     trigger: <Trigger/>,
-    tooltip: "Change mailchimp sign up url",
+    tooltip: "Change campaign monitor settings",
     header: [Icons.ICON_CAMPAIGN_MONITOR, <span>CampaignMonitor Settings</span>],
     body: [<Body/>],
     closeIcon: "submit",
