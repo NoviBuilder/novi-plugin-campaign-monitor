@@ -2,18 +2,18 @@ const React = novi.react.React;
 const Icons = novi.ui.icons;
 import Trigger from "./editor/Trigger";
 import Body from "./editor/Body";
-
-
+const Language = novi.language;
+const messages = Language.getDataByKey("novi-plugin-campaign-monitor");
 const EditorItem = {
     trigger: <Trigger/>,
-    tooltip: "Change campaign monitor settings",
-    header: [Icons.ICON_CAMPAIGN_MONITOR, <span>CampaignMonitor Settings</span>],
+    tooltip: messages.editor.tooltip,
+    header: [Icons.ICON_CAMPAIGN_MONITOR, <span>{messages.editor.header}</span>],
     body: [<Body/>],
     closeIcon: "submit",
     onSubmit: onSubmitAction,
     width: 360,
     height: 170,
-    title: "Campaign monitor settings"
+    title: messages.editor.title
 };
 
 

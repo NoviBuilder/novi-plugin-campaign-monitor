@@ -1,6 +1,6 @@
 {
   "name": "@novi_dev/novi-plugin-capmpaign-monitor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Novi capmpaign monitor plugin",
   "main": "dist/novi-plugin-capmpaign-monitor.js",
   "repository": {
